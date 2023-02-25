@@ -20,7 +20,7 @@ $ docker run -it -v $(pwd):/root --gpus all ubuntu:FlexGen
 
 In container, execute following commands.
 
-```sh
+```
 root@hostname:/# cd FlexGen
 root@hostname:/FlexGen# python3 apps/chatbot.py --model facebook/opt-6.7b --compress-weight
 ```
